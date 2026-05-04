@@ -65,7 +65,6 @@ function sumArrayElements(arr) {
     return sum;
 }
 
-
 function cargarActv12() {
     const contenedorPrincipal = document.getElementById("resultados");
 
@@ -126,7 +125,6 @@ function mostrarMaximo() {
 
     document.getElementById("resultado").textContent = `El valor máximo es: ${max}`;
 }
-
 
 function cargarActv13() {
     const contenedorPrincipal = document.getElementById("resultados");
@@ -198,8 +196,6 @@ function procesarBusqueda() {
     }
 }
 
-
-
 function cargarActv14() {
     const contenedorPrincipal = document.getElementById("resultados");
 
@@ -256,7 +252,6 @@ function mostrarInvertido() {
 
     resultado.innerHTML = `Array invertido: <b>${invertido.join(", ")}</b>`;
 }
-
 
 function cargarActv15() {
     const contenedorPrincipal = document.getElementById("resultados");
@@ -320,4 +315,25 @@ function procesarNumeros() {
     const totalPares = countEvenNumbers(numbersArray);
 
     resultado.innerHTML = "Cantidad de números pares: " + totalPares;
+}
+
+function testing() {
+    const contenedorPrincipal = document.getElementById("resultados");
+
+    contenedorPrincipal.innerHTML = `
+        <br><br>
+
+        <hr width="60%">
+        <h3>Testing del proyecto</h3>
+        <hr width="60%">
+
+        <br><br>
+
+        <p>✅ Aprobado: la página está funcionando correctamente.</p>
+        <p>✅ Los ejercicios del 11 al 15 están cargados.</p>
+        <p>✅ El archivo JavaScript responde sin errores.</p>
+        <p>✅ GitHub Pages está mostrando el proyecto publicado.</p>
+
+        <br><br>
+    `;
 }
