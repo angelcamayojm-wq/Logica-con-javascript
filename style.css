@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: #ffffff;
+    padding: 50px 30px 30px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 38px;
+    color: #ffffff;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+button {
+    border: none;
+    padding: 12px 18px;
+    border-radius: 10px;
+    background: #00c6ff;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0072ff;
+    transform: scale(1.05);
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 20px auto;
+}
+
+#resultados {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(8px);
+}
+
+#resultados h3 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #00c6ff;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    max-width: 420px;
+    padding: 12px;
+    margin: 8px 0 18px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+}
+
+p {
+    margin: 12px 0;
+    line-height: 1.5;
+}
+
+#resultado,
+#resultado14,
+#resultado15,
+#vectoresGenerados,
+#sumaTotalVectores {
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 18px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    #resultados {
+        padding: 18px;
+    }
+}
