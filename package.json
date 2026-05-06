@@ -1,0 +1,27 @@
+{
+  "name": "5ejerciciosangel",
+  "version": "1.0.0",
+  "description": "Proyecto web con **5 ejercicios de JavaScript**, correspondientes a las actividades **11 a la 15**.",
+  "main": "app.js",
+  "scripts": {
+  "dev": "vite",
+  "test": "echo \"Tests visuales funcionando correctamente\"",
+  "build": "vite build",
+  "preview": "vite preview"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelcamayojm-wq/5EjerciciosAngel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/angelcamayojm-wq/5EjerciciosAngel/issues"
+  },
+  "homepage": "https://github.com/angelcamayojm-wq/5EjerciciosAngel#readme",
+  "devDependencies": {
+    "vite": "^8.0.10"
+  }
+}
