@@ -1,4 +1,4 @@
-# 🚀 5 Ejercicios Angel
+# 🚀 JavaScript Logic Lab
 
 Proyecto web con **5 ejercicios de JavaScript**, correspondientes a las actividades **11 a la 15**.
 
