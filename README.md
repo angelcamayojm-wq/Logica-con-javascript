@@ -1,4 +1,4 @@
-# 🚀 JavaScript Logic Lab
+# 🚀 logica-con-javascript
 
 Proyecto web con **5 ejercicios de JavaScript**, correspondientes a las actividades **11 a la 15**.
 
